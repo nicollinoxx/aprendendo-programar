@@ -1,0 +1,36 @@
+Comandos DOS basicos
+
+mostrar comandos -> help
+listar diretorios -> dir
+entra na past -> cd
+voltar uma pasta -> cd..
+trocar unidade -> c: ou d:
+entrar no diretorio do projeto -> cd c:\projetos
+-------------------------------------------------
+   
+Metodos (Variacoes e atribuicoes)
+
+String: .to_s --> versao string de um objeto 
+String: .to_f --> versao float
+String: .to_i --> verao inteira de uma obejeto
+String: .length.to_s --> diz numeros de caracteres (incluindo espacos) 
+String: .upcase --> muda todas as letras minúsculas para maiúsculas
+String: .downcase --> muda todas as letras maiúsculas para minúsculas
+String: .swapcase -->  troca a caixa de todas as letras da string 
+String: .capitalize --> troca o primeiro caractere para maiúsculo (se for uma letra)
+
+puts = gets --> obter strings
+puts = gets.chomp --> para retirar 'enter'
+
+--------------------------------------------------
+Metodos --> +, -, * e /
++ --> soma
+- --> subtracao 
+* --> multiplicacao
+/ --> divisao 
+--------------------------------------------------
+                
+                   (ARITMETICA)
+5**2 --> exemplos para como colocar numeros ao quadrado 
+5**0.5 --> exemplos para calculos com raizes ao quadrado
+
