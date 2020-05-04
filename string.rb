@@ -1,2 +1,7 @@
-puts 'Óla '.+ 'mundo'
-puts (10.* 9).+ 9
+comando = ''
+while comando != 'tchau'
+puts comando
+comando = gets.chomp
+end
+
+puts 'nao volte mais ok'
