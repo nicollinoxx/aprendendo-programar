@@ -1,9 +1,8 @@
-contador = 0
 comando = ''
 palavras = []
+  comando = gets.chomp
 while comando != 'tchau'
-  palavras[contador] = comando
-  contador = contador + 1
+  palavras.push comando
   comando = gets.chomp
 end
-  puts palavras.sort.join(' , ')
+  puts palavras.sort.join (', ')
