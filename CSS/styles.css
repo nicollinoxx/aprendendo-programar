@@ -1,0 +1,28 @@
+
+li {
+  color: pink;
+}
+
+li {
+  list-style-type: square;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+body h1 + p .special{
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+
+body h1 .special{
+  color: red;
+  background-color: yellow;
+  border: 1px solid black;
+}
